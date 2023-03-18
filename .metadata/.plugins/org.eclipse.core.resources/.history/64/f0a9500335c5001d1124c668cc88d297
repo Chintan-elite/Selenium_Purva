@@ -1,0 +1,14 @@
+package basic;
+
+
+public class Demo {
+	public static void main(String[] args) {
+		
+		int abc = 10;
+		int Main = 20;
+		int c$1 = 30;
+		String name = "Purva";
+		double d = 26.66;
+		
+	}
+}

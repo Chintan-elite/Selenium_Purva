@@ -1,0 +1,21 @@
+java program structure : 
+
+1 : package : grop of classes
+
+2 : import : while using library class/iterface
+
+3 : class name : userdefine class
+
+4 : main method : 
+
+shortcut : 
+praposals : ctrl + space
+newfile : ctrl + N
+zoomin : ctrl + +
+zoomout : ctrl + -
+save : ctrl +s
+
+Naming convantion : 
+
+package : should be small letter
+class : should start with Capital letter, if there are multiple words thern every word should start with capital
