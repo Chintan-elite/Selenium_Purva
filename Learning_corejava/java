@@ -64,6 +64,49 @@ boolean	1bit	false
 datatype Casting : 
 convert one type of data into another type
 
+*************************************************
+Oprators : 
+Arithmatic oprator : 
++,-,*,/,%
+
+Relational : 
+<,>,<=,>=, !=,==
+
+Logical : 
+OR ||, AND && , NOT !
+
+unary : 
+++,--
+
+Turnary : 
+condition ? true : flase
+
+**************************************************
+Statements : 
+
+conditional : 
+if, if-else, switch-case
+
+
+looping
+for, while, do-while
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
