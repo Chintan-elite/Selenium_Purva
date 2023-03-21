@@ -1,0 +1,23 @@
+package statements;
+
+public class S003_SwitchCase {
+	public static void main(String[] args) {
+		
+		
+		int num =1;
+		
+		switch(num)
+		{
+		case 1:
+		case 2:
+		case 3:
+		}
+		
+		
+		
+		
+	}
+	
+	
+	
+}
