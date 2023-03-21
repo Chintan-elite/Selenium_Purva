@@ -91,24 +91,6 @@ if, if-else, switch-case
 looping
 for, while, do-while
 
-task : 
-
-marks : 70
-
-91-100 : grade A
-71-90 : grade B
-51-70 : grade C
-36-50 : grade D
-0-35 : Fail
-other then 0-100 : invalid input
-
-
-
-
-
-
-
-
 
 
 
