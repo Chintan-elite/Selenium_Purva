@@ -124,7 +124,42 @@ Mdimention
 array index stats from 0.
 
 
+OOPs : 
+******************
+class
+object
+encaptulation
+polymorphism
+inheritance
+abstraction
 
+class
+logical entity
+
+object
+realtime entity
+
+
+state/ variables
+behaviour /methods
+
+can be 2 types : 
+static : single copy / can be called by class name 
+non-static : depends on object creation / need to create abject to call method
+
+
+
+method syntax : reusable code
+
+accessmodifier(optional) returntype(*) methodname(args)
+{
+	//body
+}
+
+object syntex :
+
+classname variablename = new classConstructor();
+Pen p = new Pen();
 
 
 
