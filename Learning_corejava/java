@@ -162,6 +162,11 @@ classname variablename = new classConstructor();
 Pen p = new Pen();
 
 
+Accessmodifier
+public : can be accesible from anywhere
+private : accesible in class only
+protected : accesible i packge and outside the package in subclass only
+default : can be accesible in packege only
 
 
 

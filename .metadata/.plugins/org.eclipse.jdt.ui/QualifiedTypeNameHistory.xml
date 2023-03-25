@@ -5,4 +5,7 @@
     <fullyQualifiedTypeName name="oops.Pen"/>
     <fullyQualifiedTypeName name="oops.Student"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="oops.Employee"/>
+    <fullyQualifiedTypeName name="oops.Opration"/>
+    <fullyQualifiedTypeName name="oops.Demo"/>
 </qualifiedTypeNameHistroy>

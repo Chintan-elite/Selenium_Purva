@@ -1,5 +1,7 @@
 package BasicPractice;
 
+import oops.Demo;
+
 public class B003_Factorial {
 	public static void main(String[] args) {
 		
@@ -14,6 +16,10 @@ public class B003_Factorial {
 		}
 		
 		System.out.println("Factorial is : "+fact);
+		
+		
+		
+		
 		
 		
 	}
