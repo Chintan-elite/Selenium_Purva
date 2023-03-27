@@ -168,6 +168,39 @@ private : accesible in class only
 protected : accesible i packge and outside the package in subclass only
 default : can be accesible in packege only
 
+Encaptulation
+wrapping data member and function member in single unit and give apropriate access to use it and secure it
+
+Inheritance
+create new class using onther class property
+
+base / super / perent : 
+from which property inherited
+
+derived / sub / child : 
+new class created using another class proprty
+
+
+keywords : 
+static : create signle copy in memory
+this : refer current class member
+super : refer super / perent class member
+
+
+type of inheritance : 
+
+A --> B : simple inheritance
+
+A-->B-->C : multilevel inheritance
+
+A-->B
+A-->C : hirichical inheritance
+
+
+A,B-->C : multiple inheritancd
+not supported in java
+
+
 
 
 
