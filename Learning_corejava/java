@@ -200,6 +200,58 @@ A-->C : hirichical inheritance
 A,B-->C : multiple inheritancd
 not supported in java
 
+Polymorphism : 
+one name , many forms
+
+compiletime / methodoverloading
+same class
+by changing parameters, by type or by length
+
+runtime / methodoverriding
+super - > sub class
+by changing method body
+
+Abstraction : 
+hiding implimetation and showing only functionality
+
+how can we achieve abstraction in java : 
+abstract class - partail abstraction - contains abstract and instance method both
+interface - 100% abstraction - contains abstract method only
+
+abstract method : 
+method without body
+
+public void display(); -- 
+
+
+instance method : 
+public void sample()
+{
+
+}
+
+///final : 
+class : cant inherite
+method : cant override
+variable : cant change
+
+
+//imp classes
+String
+Stringbuffer
+Stringbuilder
+Object
+Wrapper
+
+Exception handling : 
+
+error : 
+exception : abnormal conditions accures during execution of program
+
+
+
+
+
 
 
 

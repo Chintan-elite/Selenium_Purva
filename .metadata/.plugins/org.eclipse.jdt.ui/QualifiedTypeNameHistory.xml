@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="oops.Pen"/>
     <fullyQualifiedTypeName name="oops.Student"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="oops.Employee"/>
     <fullyQualifiedTypeName name="oops.Opration"/>
     <fullyQualifiedTypeName name="oops.Demo"/>
+    <fullyQualifiedTypeName name="oops.Std"/>
+    <fullyQualifiedTypeName name="oops.Dog"/>
+    <fullyQualifiedTypeName name="oops.Animal"/>
+    <fullyQualifiedTypeName name="oops.Cat"/>
+    <fullyQualifiedTypeName name="oops.B"/>
+    <fullyQualifiedTypeName name="java.awt.image.AreaAveragingScaleFilter"/>
+    <fullyQualifiedTypeName name="oops.Calc"/>
+    <fullyQualifiedTypeName name="oops.O010_Methodoveriding"/>
+    <fullyQualifiedTypeName name="oops.Sample"/>
+    <fullyQualifiedTypeName name="oops.AbsImpl"/>
+    <fullyQualifiedTypeName name="oops.Intr"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="impclasses.Demo"/>
+    <fullyQualifiedTypeName name="impclasses.Sample"/>
 </qualifiedTypeNameHistroy>
