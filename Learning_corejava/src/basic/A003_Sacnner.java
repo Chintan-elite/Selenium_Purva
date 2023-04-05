@@ -18,7 +18,7 @@ public class A003_Sacnner {
 		System.out.println(a+" "+b+" "+name);
 		
 		
-		
+		sc.close();
 		
 		
 	}

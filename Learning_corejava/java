@@ -248,6 +248,95 @@ Exception handling :
 error : 
 exception : abnormal conditions accures during execution of program
 
+types of exception
+
+compiletime
+runtime
+
+
+FILE IO : input/output
+
+stream : flow of data
+
+byte based
+FileInputStream
+FileOutputStream
+
+char. based
+FileReader
+FileWriter
+
+File class
+
+
+Thread : 
+
+light wait process.
+multiple thread can run concureentlly.
+
+how to create thread
+
+Using 
+Thread Class
+Runnable interface
+
+
+Collection Framework : 
+
+interface : 
+
+list
+set
+queue
+
+list : 
+arraylist
+linkedlist
+
+
+set
+hashset
+linked hashset
+treeset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
