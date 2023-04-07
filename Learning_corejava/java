@@ -290,15 +290,17 @@ set
 queue
 
 list : 
-arraylist
-linkedlist
+arraylist : preserving insertion order, duplication allowed
 
 
-set
-hashset
-linked hashset
-treeset
 
+set : duplication not allowed
+hashset : does not preserve insertion order
+linkedhashset : preserving insertion order
+treeset : asc or desc order
+
+Map
+*****************************java end***********************
 
 
 
