@@ -1,0 +1,92 @@
+Automation : 
+use software or tools to do testing
+retesting and regrassion
+
+
+tools : 
+QTP : quick test pro
+commercial
+windows
+limted addons
+have to use third party software for parellel testing
+
+Selenium
+open source
+windows, mac, linux
+parallel testing can be possible
+
+
+advantages : 
+speed
+accuracy
+repatitive
+comprehensive
+
+
+selenium is a suite : group of tools
+
+selenium ide
+no req.of coding knowledge
+record and reply
+use to create test prototype
+
+
+selenium RC
+java, php, python, perl, rubby, c#
+selenium code ---- middleware(server) ---- browser
+
+
+
+selenium webdriver
+java, php, python, perl, rubby, c#
+selenium code -------- browser
+added more features then rc
+faster then rc
+
+selenium grid
+parellel testing
+use node and hub concepts
+
+node
+ |
+hub - node
+ |
+node
+
+
+Selenium Webdriver : 
+
+Webelements
+textbox
+button
+radiobutton
+checkbox
+dropdown
+link
+
+Locators
+id
+name
+classname
+css selectors
+xpath
+linktext
+partiallinktext
+tagname
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
