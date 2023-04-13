@@ -70,10 +70,41 @@ name
 classname
 css selectors
 xpath
-linktext
+linktext ==ancer tag
 partiallinktext
 tagname
 
+
+**************************************
+open browser : 
+system.setProperty(key, path);
+
+open url :  get(url)
+
+fullscreen : driver.manage().window().maximize();
+
+findelement : 
+
+findElement(By.locatorname(value));
+
+sendvalye to element : 
+
+sendKeys()
+
+click on element : 
+
+click()
+
+close window : 
+
+close() : it will close perticular tab
+quit() : close browser
+
+dropdown : 
+
+use Select class
+
+Select select = new Select(webelemetname);
 
 
 
