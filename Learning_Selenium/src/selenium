@@ -107,8 +107,38 @@ use Select class
 Select select = new Select(webelemetname);
 
 
+rules for locator : 
+
+1	Evey object may not have ID, className or name- Xpath and CSS Preferred
+2	Alpha numeric id may vary on every refresh- check
+3	Confirm the link object with anchor "a" tag
+4	Classes should not have spaces- Compound classes cannot be accepted
+5	Multipl values - Selenium identifies the first one- Scans from top left
+6	Double quotes inside double quotes are not accepted
+7	Xpath/CSS  can be defined in n number of ways
+8	Rightclick copy on blue highlighted html code to generate xpath
+9	when xpath starts with html-Not reliable- Switch browser to get another one
 
 
+how to createxpath : 
+***********************************
+1 : //tagName[@attribute='value']
+
+//input[@name='email']
+//button[@type='submit']
+//*[@type='submit']
+
+$x("//input[@name='email']")
+$x("//button[@type='submit']")
+-----------------------------
+2 : //tagName[contains(@attribute,'value')]
+
+//input[contains(@id,'u_h')]
+//*[contains(@id,'u_h')]
+
+
+$x("//input[contains(@id,'u_h')]")
+$x("//*[contains(@id,'u_h')]")
 
 
 

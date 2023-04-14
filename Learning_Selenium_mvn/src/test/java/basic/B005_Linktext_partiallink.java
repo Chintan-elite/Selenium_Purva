@@ -14,7 +14,6 @@ public class B005_Linktext_partiallink {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
-		
 		//WebElement c =  driver.findElement(By.linkText("Create"));
 		
 		List<WebElement> links =  driver.findElements(By.partialLinkText("Meta"));
@@ -28,6 +27,8 @@ public class B005_Linktext_partiallink {
 		
 		//driver.close();
 		driver.quit();
+		
+		
 		
 		
 	}
