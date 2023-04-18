@@ -139,7 +139,22 @@ $x("//button[@type='submit']")
 
 $x("//input[contains(@id,'u_h')]")
 $x("//*[contains(@id,'u_h')]")
+-------------------------------
+3 : parent to child
 
+//tagName[@attribute='value']/tagname/tagname...
+
+//table[@id='customers']/tbody/tr[4]/td[2]
+
+-------------------------------
+4 : child to parent
+
+//div[@id='gw-layout']/parent::div
+
+-------------------------------
+5 : sibbling
+
+//div[@id='gw-layout']/following-sibling::div
 
 
 
