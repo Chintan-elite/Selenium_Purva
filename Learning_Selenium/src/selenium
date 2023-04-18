@@ -155,7 +155,15 @@ $x("//*[contains(@id,'u_h')]")
 5 : sibbling
 
 //div[@id='gw-layout']/following-sibling::div
+//div[@id='gw-layout']/preceding-sibling::a
 
+-------------------------------
+6 : using text
+
+//label[text()='Male']
+//label[text()='Facebook']
+//*[contains(text(),'facebook')]
+*********************************************************************************
 
 
 
