@@ -165,8 +165,25 @@ $x("//*[contains(@id,'u_h')]")
 //*[contains(text(),'facebook')]
 *********************************************************************************
 
+Wait : 
+
+implicite wait :sytem generated wait
+explicite wait : wait for particular condition accures
+
+switching : 
+
+alert switch
+driver.switchTo.alert();
+
+window switch
+-use windowHandle() to get window name
+
+driver.switchTo.winndow(winndowname);
 
 
+frame switch
+driver.findElements(By.tagname(tagname));
+driver.switchTo.frame(index or name or webelement)
 
 
 

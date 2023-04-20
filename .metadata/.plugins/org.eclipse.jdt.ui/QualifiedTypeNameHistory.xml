@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="oops.Employee"/>
-    <fullyQualifiedTypeName name="oops.Opration"/>
-    <fullyQualifiedTypeName name="oops.Demo"/>
-    <fullyQualifiedTypeName name="oops.Std"/>
-    <fullyQualifiedTypeName name="oops.Dog"/>
     <fullyQualifiedTypeName name="oops.Animal"/>
     <fullyQualifiedTypeName name="oops.Cat"/>
     <fullyQualifiedTypeName name="oops.B"/>
@@ -55,9 +49,15 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.remote.DriverCommand"/>
     <fullyQualifiedTypeName name="util.DriverCoonection"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.DimensionUIResource"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="util.DriverConnection"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 </qualifiedTypeNameHistroy>

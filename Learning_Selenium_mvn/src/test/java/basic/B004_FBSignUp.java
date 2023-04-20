@@ -1,5 +1,6 @@
 package basic;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -15,17 +16,19 @@ public class B004_FBSignUp {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
-		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		
 		 driver.findElement(By.linkText("Create new account")).click();
 		
-		 try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//		 try {
+//			Thread.sleep(2000);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		
+		 
+		 
 		driver.findElement(By.name("firstname")).sendKeys("Test");
 		driver.findElement(By.name("lastname")).sendKeys("test");
 		driver.findElement(By.name("reg_email__")).sendKeys("9856748596");
