@@ -186,6 +186,18 @@ driver.findElements(By.tagname(tagname));
 driver.switchTo.frame(index or name or webelement)
 
 
+**********************************
+keyboard and mouseevent
+
+use Actions class : 
+Actions builder = new Actions(driver);
+
+
+
+
+
+
+
 
 
 
