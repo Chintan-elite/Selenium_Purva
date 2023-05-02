@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.WebElement;
 
+import screenshot.S001_ScreenshotDemo;
 import util.DriverConnection;
 
 public class C001_Datepicker {
@@ -78,7 +79,7 @@ public class C001_Datepicker {
 			}
 			
 			
-			
+			S001_ScreenshotDemo.getScreenShot(driver, "D://test//datapicket.png");
 			
 			
 			
