@@ -4,13 +4,13 @@ import org.testng.annotations.Test;
 
 public class Payment {
 	
-	@Test
+	@Test(groups = "smoke")
 	public void creditCard()
 	{
 		System.out.println("running creditcard payment");
 	}
 	
-	@Test
+	@Test(groups = "sanity")
 	public void debitCard()
 	{
 		System.out.println("runing debitcard payment");
@@ -21,4 +21,11 @@ public class Payment {
 	{
 		System.out.println("running cod payment");
 	}
+	
+	
+	
+	
+	
+	
+	
 }

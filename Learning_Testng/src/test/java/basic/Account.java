@@ -1,5 +1,15 @@
 package basic;
 
+import static org.testng.Assert.fail;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Account {
@@ -7,20 +17,67 @@ public class Account {
 	@Test
 	public void savingAccount()
 	{
+	//	fail("test failed");
 		System.out.println("Running saving account");
 	}
 	
-	@Test
+	@Test(groups = {"sanity","smoke"})
 	public void loanAccount()
 	{
 		System.out.println("Running loan account");
 	}
 	
-	@Test
+	@Test(groups = "smoke")
 	public void currentAccount()
 	{
 		System.out.println("Running current account");
 	}
 	
+	@BeforeMethod
+	public void beforeMethod()
+	{
+		System.out.println("Running before method");
+	}
 	
+	@AfterMethod
+	public void afterMethod()
+	{
+		System.out.println("Runing after method");
+	}
+	
+	@BeforeClass
+	public void beforeClass()
+	{
+		System.out.println("Running before class");
+	}
+	
+	@AfterClass
+	public void afterClass()
+	{
+		System.out.println("Runnig after class");
+	}
+	
+	@BeforeTest
+	public void beforeTest()
+	{
+		System.out.println("Runing before Test");
+	}
+	
+	@AfterTest
+	public void afterTest()
+	{
+		System.out.println("Running after Test");
+	}
+	
+	@BeforeSuite
+	public void beforeSuite()
+	{
+		System.out.println("Running before suit");
+	}
+	
+	@AfterSuite
+	public void afterSuite()
+	{
+		System.out.println("Runing after suite");
+	}
 }
