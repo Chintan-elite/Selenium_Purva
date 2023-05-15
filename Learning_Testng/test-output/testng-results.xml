@@ -1,64 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-13T08:24:05 IST" name="Default suite" finished-at="2023-05-13T08:24:05 IST" duration-ms="50">
+  <suite started-at="2023-05-15T08:28:52 IST" name="Suite" finished-at="2023-05-15T08:29:01 IST" duration-ms="9269">
     <groups>
     </groups>
-    <test started-at="2023-05-13T08:24:05 IST" name="Default test" finished-at="2023-05-13T08:24:05 IST" duration-ms="50">
-      <class name="dependency.DependencyTest">
-        <test-method signature="exp()[pri:0, instance:dependency.DependencyTest@294425a7]" started-at="2023-05-13T08:24:05 IST" name="exp" finished-at="2023-05-13T08:24:05 IST" duration-ms="7" status="PASS">
-          <exception class="java.lang.ArithmeticException">
-            <message>
-              <![CDATA[/ by zero]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ArithmeticException: / by zero
-at dependency.DependencyTest.exp(DependencyTest.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ArithmeticException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exp -->
-        <test-method signature="login()[pri:1, instance:dependency.DependencyTest@294425a7]" started-at="2023-05-13T08:24:05 IST" name="login" finished-at="2023-05-13T08:24:05 IST" duration-ms="3" status="FAIL">
+    <test started-at="2023-05-15T08:28:52 IST" name="Test" finished-at="2023-05-15T08:29:01 IST" duration-ms="9269">
+      <class name="listener.FbTest">
+        <test-method signature="titleCheck(org.testng.ITestContext)[pri:1, instance:listener.FbTest@4cc451f2]" started-at="2023-05-15T08:28:52 IST" name="titleCheck" finished-at="2023-05-15T08:28:55 IST" duration-ms="3853" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c671d7f]]>
+              </value>
+            </param>
+          </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[expected [FB] but found [Facebook – log in or sign up]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
+              <![CDATA[java.lang.AssertionError: expected [FB] but found [Facebook – log in or sign up]
 at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.fail(Assert.java:115)
-at dependency.DependencyTest.login(DependencyTest.java:14)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at listener.FbTest.titleCheck(FbTest.java:19)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -92,17 +61,38 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="home()[pri:2, instance:dependency.DependencyTest@294425a7]" started-at="2023-05-13T08:24:05 IST" name="home" finished-at="2023-05-13T08:24:05 IST" depends-on-methods="dependency.DependencyTest.login" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
+        </test-method> <!-- titleCheck -->
+        <test-method signature="logincheck(org.testng.ITestContext)[pri:2, instance:listener.FbTest@4cc451f2]" started-at="2023-05-15T08:28:56 IST" name="logincheck" finished-at="2023-05-15T08:29:01 IST" duration-ms="4891" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c671d7f]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Method dependency.DependencyTest.home() on instance dependency.DependencyTest@294425a7 depends on not successfully finished methods 
-[dependency.DependencyTest.login() on instance dependency.DependencyTest@294425a7]]]>
+              <![CDATA[expected [fb] but found [Facebook – log in or sign up]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method dependency.DependencyTest.home() on instance dependency.DependencyTest@294425a7 depends on not successfully finished methods 
-[dependency.DependencyTest.login() on instance dependency.DependencyTest@294425a7]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+              <![CDATA[java.lang.AssertionError: expected [fb] but found [Facebook – log in or sign up]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at listener.FbTest.logincheck(FbTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -123,11 +113,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- home -->
-      </class> <!-- dependency.DependencyTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- logincheck -->
+      </class> <!-- listener.FbTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
