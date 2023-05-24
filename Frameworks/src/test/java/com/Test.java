@@ -3,7 +3,7 @@ package com;
 public class Test {
 	public static void main(String[] args) {
 		
-		ExcellReader rd = new ExcellReader();
+		ExcellReader rd = new ExcellReader("C:\\Users\\CHINTAN\\OneDrive\\Desktop\\mytest.xlsx","reg");
 		int rows =  rd.rowCount();
 		System.out.println("Rows : "+rows);
 		

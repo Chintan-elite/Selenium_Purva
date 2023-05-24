@@ -7,9 +7,16 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcellReader {
 
-	String path = "C:\\Users\\CHINTAN\\OneDrive\\Desktop\\mytest.xlsx";
-	String sheet = "login";
+	String path;
+	String sheet;
 	
+	
+	public ExcellReader(String path, String sheet) {
+		super();
+		this.path = path;
+		this.sheet = sheet;
+	}
+
 	public int rowCount()
 	{
 		int i =0;
