@@ -1,0 +1,9 @@
+07:57:03.648 [main] INFO  com.MyTest - this is info message
+07:57:03.655 [main] ERROR com.MyTest - this is error message
+07:57:03.656 [main] FATAL com.MyTest - this is fatal message
+07:57:44.994 [main] INFO  com.MyTest - this is info message
+07:57:44.995 [main] ERROR com.MyTest - this is error message
+07:57:44.995 [main] FATAL com.MyTest - this is fatal message
+07:58:00.361 [main] INFO  com.MyTest - this is info message
+07:58:00.363 [main] ERROR com.MyTest - this is error message
+07:58:00.363 [main] FATAL com.MyTest - this is fatal message

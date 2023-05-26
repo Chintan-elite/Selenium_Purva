@@ -2,6 +2,8 @@ package basic;
 
 import static org.testng.Assert.fail;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -14,70 +16,71 @@ import org.testng.annotations.Test;
 
 public class Account {
 	
+	Logger log = LogManager.getLogger(Account.class);
 	@Test
 	public void savingAccount()
 	{
 	//	fail("test failed");
-		System.out.println("Running saving account");
+		log.info("Running saving account");
 	}
 	
 	@Test(groups = {"sanity","smoke"})
 	public void loanAccount()
 	{
-		System.out.println("Running loan account");
+		log.info("Running loan account");
 	}
 	
 	@Test(groups = "smoke")
 	public void currentAccount()
 	{
-		System.out.println("Running current account");
+		log.info("Running current account");
 	}
 	
 	@BeforeMethod
 	public void beforeMethod()
 	{
-		System.out.println("Running before method");
+		log.info("Running before method");
 	}
 	
 	@AfterMethod
 	public void afterMethod()
 	{
-		System.out.println("Runing after method");
+		log.info("Runing after method");
 	}
 	
 	@BeforeClass
 	public void beforeClass()
 	{
-		System.out.println("Running before class");
+		log.info("Running before class");
 	}
 	
 	@AfterClass
 	public void afterClass()
 	{
-		System.out.println("Runnig after class");
+		log.info("Runnig after class");
 	}
 	
 	@BeforeTest
 	public void beforeTest()
 	{
-		System.out.println("Runing before Test");
+		log.info("Runing before Test");
 	}
 	
 	@AfterTest
 	public void afterTest()
 	{
-		System.out.println("Running after Test");
+		log.info("Running after Test");
 	}
 	
 	@BeforeSuite
 	public void beforeSuite()
 	{
-		System.out.println("Running before suit");
+		log.info("Running before suit");
 	}
 	
 	@AfterSuite
 	public void afterSuite()
 	{
-		System.out.println("Runing after suite");
+		log.info("Runing after suite");
 	}
 }

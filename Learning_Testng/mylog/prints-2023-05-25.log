@@ -1,0 +1,8 @@
+08:03:17.491 [main] INFO  basic.Account - Running before suit
+08:03:17.498 [main] INFO  basic.Account - Runing before Test
+08:03:17.506 [main] INFO  basic.Account - Running before class
+08:03:17.514 [main] INFO  basic.Account - Running before method
+08:03:17.517 [main] INFO  basic.Account - Running current account
+08:03:17.519 [main] INFO  basic.Account - Runing after method
+08:03:17.523 [main] INFO  basic.Account - Running before method
+08:03:17.524 [main] INFO  basic.Account - Running loan account

@@ -1,0 +1,3 @@
+07:58:02.133 [main] INFO  com.MyTest - this is info message
+07:58:02.140 [main] ERROR com.MyTest - this is error message
+07:58:02.140 [main] FATAL com.MyTest - this is fatal message

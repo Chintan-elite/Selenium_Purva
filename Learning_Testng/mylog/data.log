@@ -1,0 +1,7 @@
+08:03:17.525 [main] INFO  basic.Account - Runing after method
+08:03:17.530 [main] INFO  basic.Account - Running before method
+08:03:17.531 [main] INFO  basic.Account - Running saving account
+08:03:17.532 [main] INFO  basic.Account - Runing after method
+08:03:17.533 [main] INFO  basic.Account - Runnig after class
+08:03:17.535 [main] INFO  basic.Account - Running after Test
+08:03:17.554 [main] INFO  basic.Account - Runing after suite
